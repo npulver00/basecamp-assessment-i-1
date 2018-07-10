@@ -13,12 +13,12 @@ var lovesCode = true;
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 var myName = "My name is Natalie";
 var favNum =  "and my favorite number is 5";
-var me = myName + favNum; 
+var me = (myName + favNum); 
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
 var trueFaveNum = 5;
-faveNum === trueFaveNum;
+(faveNum == trueFaveNum);
   return true;
 
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
@@ -31,7 +31,7 @@ myName !== notHakeem;
 var age = 18;
 var canDrive;
 
-if (age > 16){
+if canDrive(age > 16){
    return true;
 }
 else {
@@ -44,9 +44,9 @@ var colorResponse;
 
 var responseCreator = function(param){
   
-   if (colorResponse == "green"){
-            return "Green is okay"
-  }  else if (colorResponse == "red"){
+   if (param == "green"){
+            return "Green is okay."
+  }  else if (param == "red"){
        return "I heart red."
   }  else { return "What is your favorite color?"
 }
@@ -55,7 +55,7 @@ var responseCreator = function(param){
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
 
 function sum (num1, num2) {
-       return num1 + num2
+       return num1 + num2 + sum
 };
  
 1};
@@ -63,12 +63,9 @@ function sum (num1, num2) {
 // #10 Create a function called 'greeter' that takes in two parameters, name and number. Have 'greeter' return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values..
 
 function greeter(name, number) {
-  var name;
-  var number;
- name = "Hello! I am Natalie"
- number = "and I am 36 years old"
-  console.log (name + number);
-}
+var name = "Hello! I am Natalie"
+var number = "and I am 36 years old"
+ };
 greeter(name + number); 
   
 
